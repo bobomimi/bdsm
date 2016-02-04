@@ -1,0 +1,18 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: bdsm_development
+  pool: 5
+  username: boaz
+  password: 
+
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: bdsm_test
+  pool: 5
+  username: boaz
+  password: 
+
+
