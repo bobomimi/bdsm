@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'admin' => 'admin#home'
+
+  devise_for :admins, controllers: { registrations: "admins/registrations" }
+  devise_for :users
   get 'welcome/index'
 
 
